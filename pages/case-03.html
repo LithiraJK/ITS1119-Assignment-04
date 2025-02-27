@@ -14,6 +14,7 @@
       body {
         height: 100%;
         width: 100%;
+        position: fixed;
       }
 
       #color-box {
@@ -21,7 +22,7 @@
         height: 100px;
         border-radius: 20px;
         animation: go-around ease-in-out infinite;
-        animation-duration: 16s;
+        animation-duration: 6s;
         position: absolute;
       }
 
@@ -41,14 +42,14 @@
         }
 
         25% {
-          top: calc(100% - 165px);
+          top: calc(100% - 155px);
           left: calc(100% - 220px);
           transform: rotate(360deg);
           background-color: red;
         }
 
         37.5% {
-          top: calc(100% - 160px);
+          top: calc(100% - 155px);
           left: 0;
           transform: rotate(180deg);
           background-color: palevioletred;
@@ -62,14 +63,14 @@
         }
 
         62.5% {
-          top: calc(100% - 160px);
+          top: calc(100% - 155px);
           left: 0;
           transform: rotate(180deg);
           background-color: palevioletred;
         }
 
         75% {
-          top: calc(100% - 165px);
+          top: calc(100% - 155px);
           left: calc(100% - 220px);
           transform: rotate(360deg);
           background-color: red;
