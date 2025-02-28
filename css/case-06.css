@@ -29,7 +29,7 @@
   position: absolute;
   top: 0;
   left: 0;
-  animation: go-back 6s ease-in-out 1s infinite;
+  animation: go-back 10s ease-in-out 1s infinite;
 }
 
 #frame-02 {
@@ -45,7 +45,7 @@
 }
 
 .car {
-  width: 26vw;
+  width: 20vw;
   position: absolute;
   top: 75%;
   left: 50%;
@@ -57,9 +57,9 @@
 }
 
 .wheel > img {
-  width: 5vw;
+  width: 4vw;
   position: absolute;
-  animation: wheel-rotation 6s ease-in-out infinite;
+  animation: wheel-rotation 10s ease-in-out infinite;
   animation-delay: 1s;
 }
 
